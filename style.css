@@ -65,6 +65,7 @@ body {
   font-family: nunito;
   font-size: 35px;
   color: white;
+  margin-left: 30px;
 }
 
 /* #height{
@@ -76,12 +77,14 @@ body {
   font-family: nunito;
   font-size: 25px;
   color: white;
+  margin-left: 30px;
 }
 
 #frontend {
   font-family: nunito;
   font-size: 15px;
   color: white;
+  margin-left: 30px;
 }
 
 #coderguy {
@@ -98,6 +101,23 @@ body {
   color: white;
   margin-top: 400px;
   margin-left: 20px;
+}
+
+#NTC {
+  width: 325px;
+  height: 300px;
+  border: 5px solid;
+  border-radius: 10px;
+  float: right;
+}
+
+#yt {
+  width: 200px;
+  height: 200px;
+  border: 5px solid;
+  border-radius: 10px;
+  margin-right: 220px;
+  float: right
 }
 
 #me {
@@ -122,13 +142,20 @@ body {
   width: 300px;
   height: 300px;
   margin-left: 400px;
-  position: relative;
+  /* position: relative; */
   float: right;
 }
 
 #pllogo {
   width: 500px;
   height: 700px;
+}
+
+#pllogo2 {
+  width: 500px;
+  height: 700px;
+  float: right;
+  margin-right: 100px;
 }
 
 #border1 {
@@ -151,11 +178,13 @@ body {
 }
 
 #border3 {
+  src: url(fonts/Nunito-Regular.ttf);
+  font-family: nunito;
   border: 5px solid #f8f8ff;
   border-radius: 40px;
   box-sizing: border-box;
   width: 710px;
-  height: 260px;
+  height: 180px;
   padding: 30px;
 }
 
